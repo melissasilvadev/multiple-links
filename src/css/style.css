@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --bg-color: #F4EDE5;
+  --bg-url: url(../images/bg-mobile-dark.png);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(248, 218, 183, 0.44);
+  --button-color: #fff;
+  --switch-bg-url: url(../images/moon-stars.svg);
+  --text-color: #fff;
+}
+
+.light {
+  --bg-color: #444344;
+  --bg-url: url(../images/bg-mobile.png);
+  --switch-bg-url: url(../images/sun.svg);
+  --text-color: #000;
+}
+
+body {
+  background: var(--bg-color) var(--bg-url) no-repeat top center/cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrap {
+  max-width: 1440px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.info img {
+  height: 80px;
+  border-radius: 50%;
+}
+
+.info p {
+  font-weight: 500;
+  color: #fd9916;
+  font-size: 10px;
+  padding: 5px 0 10px;
+}
+
+#switch {
+  position: relative;
+}
+
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: var(--button-color) var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  transform: translatey(-50%);
+  top: 50%;
+  left: 0;
+  animation: slide-back 200ms forwards;
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 9999px;
+}
+
+.light #switch button {
+  animation: slide-in 200ms;
+}
+
+#switch button:hover {
+  outline: 8px solid rgba(235, 227, 210, 0.589);
+}
+
+@keyframes slide-in {
+  from {
+    left: 50%;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: 50%;
+  }
+}
+
+.info li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: var(--text-color);
+  text-align: center;
+  padding: 16px 10px;
+  margin: 16px;
+  border: solid 2px rgba(134, 86, 40, 0.048);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: border ease-in-out 200ms;
+}
+
+.info li:hover {
+  border: solid 2px #fff;
+}
+
+.social {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  color: #fd9916;
+  padding: 15px 0;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(155, 154, 152);
+  font-size: 10px;
+}
