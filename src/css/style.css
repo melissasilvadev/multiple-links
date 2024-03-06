@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --bg-color: #F4EDE5;
+  --bg-color: #444344;
   --bg-url: url(../images/bg-mobile-dark.png);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(248, 218, 183, 0.44);
@@ -11,7 +11,7 @@
 }
 
 .light {
-  --bg-color: #444344;
+  --bg-color: #F4EDE5;
   --bg-url: url(../images/bg-mobile.png);
   --switch-bg-url: url(../images/sun.svg);
   --text-color: #000;
