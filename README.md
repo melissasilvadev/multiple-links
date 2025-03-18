@@ -1,8 +1,10 @@
-<h1 style="text-align:center;">Link da bio</h1>
-<p style="text-align:center;">Uma página para divulgar diversos links em único lugar</p>
+<div align="center">
+  <h1>Link da bio</h1>
+</div>
+<p align="center">Uma página para divulgar diversos links em único lugar</p>
 
 
-<div style="text-align:center;">
+<div align="center">
 
 ![last-commit](https://img.shields.io/github/last-commit/melissaglsilva/multiple-links?color=fd9916
 )
@@ -12,8 +14,9 @@
 )
 </div>
 
-
-![alt-text](./src/images/multiple-links-project.jpg)
+<div align="center">
+  <img src="./src/images/multiple-links-project.jpg" width=900px>
+</div>
 
 ## Sobre o projeto
 Trata-se de uma página que engloba diversos links para que o usuário possa divulgar, de maneira minimalista e completa, as páginas que desejar, além dos seus meios de contato.
