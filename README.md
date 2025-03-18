@@ -52,6 +52,6 @@ cd multiple-links
 cd start .
 ```
 
-4. Abra o arquivo index.html 
+4. Abra o arquivo `index.html`
 <br><br>
 ---
