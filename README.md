@@ -33,7 +33,7 @@ Trata-se de uma página que engloba diversos links para que o usuário possa div
 <br><br>
 ---
 ### Acessar no GitHub Pages
-[https://melissasilvadev.github.io/multiple-links/](https://melissaglsilva.github.io/multiple-links/)
+[https://melissasilvadev.github.io/multiple-links/](https://melissasilvadev.github.io/multiple-links/)
 <br><br>
 
 ### Acessar localmente
